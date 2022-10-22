@@ -1,0 +1,421 @@
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+
+    background-color: black;
+    
+    
+
+}
+
+*::selection{
+    color: white;
+    background-color: transparent;
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center ;
+}
+
+.main_outter{
+    /* width: 42vw;  */
+    padding: 2%;
+
+    /* border: 2px solid red; */
+
+
+
+    background-color: red;
+    background-image: url(https://i.pinimg.com/originals/f4/81/d7/f481d799fc6e6b0d659fb565ac1a3749.jpg);
+
+    background-size: 2vw;
+    
+
+    cursor: crosshair;
+
+
+}
+
+
+
+main{
+    
+    height: 315vh;
+    width: 40vw;
+    
+    /* Original Link for this gif file.
+    background: url(https://i.gifer.com/93Fi.gif) no-repeat ; */
+    background: url(./images/main_bg.gif) no-repeat ;
+
+   
+
+    background-size: contain;
+    background-repeat: repeat-y;
+    
+    color: white;
+   
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.main_inner{
+    margin-top: 5vw;
+    background-color: transparent;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    
+
+    border-left: 3px solid yellow;
+    border-right: 3px solid yellow;
+
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+    
+
+} 
+
+
+
+
+
+
+
+main > .main_inner > h1 {
+
+    color: yellow;
+    font-size: 270%;
+    background-color: transparent;
+
+    letter-spacing:4px;
+
+}
+
+
+main .change , h2 {
+
+    letter-spacing:4px;
+
+    color: cyan;
+    font-size: 170%;
+    background-color: transparent;
+    
+
+}
+
+.sec_1st_img{
+
+    margin-top: 20vw;
+
+    background-color: transparent;
+    margin-top: 5vw;
+}
+
+
+.sec_1st_img  img{
+
+    
+    width:25vw;
+    border: 1px solid white;
+    border-radius: 30%;
+
+    
+}
+
+
+.scroll_down{
+    
+    width: 35vw;
+    background-color: transparent;
+
+    margin-top: 15vh;
+   
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+   
+}
+
+
+
+
+.light{
+
+    background-color: transparent;
+
+    width:5vw;
+
+
+
+    border-left:  5vh solid transparent;
+    border-right:  5vh solid transparent;
+    border-bottom:  8vw solid yellow;
+
+
+    display: flex;
+    justify-content: center;
+
+  
+    visibility: hidden;
+  
+
+}
+
+
+
+
+
+
+
+
+.diya{
+    border: 2px solid yellow;
+    width: 70%;
+    height: 15vw;
+
+    border-bottom-left-radius: 30vh;
+    border-bottom-right-radius: 30vh;
+
+    border-top-left-radius: 5vh;
+    border-top-right-radius: 5vh;
+
+
+    /* background-color: darkblue; */
+
+    visibility: hidden;
+
+
+}
+
+.diya1{
+    border: 5px solid red;
+    width: 100%;
+    height: 80%;
+
+    border-bottom-left-radius: 30vh;
+    border-bottom-right-radius: 30vh;
+
+    border-top-left-radius: 5vh;
+    border-top-right-radius: 5vh;
+
+    border-top: 2px solid transparent;
+
+
+    /* background-color: red; */
+
+    visibility: hidden;
+
+
+
+    
+
+
+}
+
+.diya2{
+    border: 4px solid skyblue;
+    width: 100%;
+    height: 70%;
+
+    border-bottom-left-radius: 30vh;
+    border-bottom-right-radius: 30vh;
+
+    border-top-left-radius: 5vh;
+    border-top-right-radius: 5vh;
+
+
+    border-top: 2px solid transparent;
+
+    /* background-color: yellow; */
+
+    visibility: hidden;
+
+
+}
+
+
+.diya3{
+    border: 3px solid darkblue;
+    width: 100%;
+    height: 60%;
+
+    border-bottom-left-radius: 30vh;
+    border-bottom-right-radius: 30vh;
+
+    border-top-left-radius: 5vh;
+    border-top-right-radius: 5vh;
+
+
+    border-top: 2px solid transparent;
+    
+    /* background-color: indigo; */
+
+    visibility: hidden;
+
+
+}
+
+.diya4{
+    border: 2px solid white;
+    width: 100%;
+    height: 50%;
+
+    border-bottom-left-radius: 30vh;
+    border-bottom-right-radius: 30vh;
+
+    border-top-left-radius: 5vh;
+    border-top-right-radius: 5vh;
+
+    
+    border-top: 2px solid transparent;
+
+
+    /* background-color: cyan; */
+
+    visibility: hidden;
+
+
+}
+
+
+
+.last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: transparent;
+
+    margin-top: 10vw;
+
+    font-size: 2rem;
+}
+
+.last > h1{
+    background-color: transparent;
+}
+
+
+
+
+
+/* Meadia Queries start here----------------- */
+
+@media screen and (max-width: 480px) {
+ 
+
+    main{
+        height: 190vh;
+        width: 90vw;
+       
+    }
+
+    .sec_1st_img > img{
+        margin-top: 10vw;
+        width: 65vw;
+
+    }
+
+    main > .main_inner > h1 {
+        font-size: 200%;
+    }
+
+    main .change , h2{
+        font-size: 120%;
+    }
+
+    .scroll_down{
+    
+        width: 100vw;
+
+    }
+
+    .light{
+
+        border-left:  3vh solid transparent;
+        border-right:  3vh solid transparent;
+        border-bottom: 20vw solid yellow;
+
+    }
+
+    .diya{
+        height:35vw;
+    }
+
+    .last{
+        font-size: 1rem;
+        margin-top:20vw;
+    }
+
+  }
+
+
+
+
+
+  @media screen  and (min-width:480px) and (max-width: 1080px){
+
+    main{
+        width: 82vw;
+        height: 220vh;
+    }
+    .sec_1st_img > img{
+        margin-top: 10vw;
+        width: 70vw;
+
+    }
+
+    
+    main > .main_inner > h1 {
+        font-size: 350%;
+    }
+
+    main .change , h2{
+        font-size: 250%;
+    }
+
+    .scroll_down{
+    
+        width: 100vw;
+
+    }
+    
+    .light{
+
+        border-left:  4vh solid transparent;
+        border-right:  4vh solid transparent;
+        border-bottom: 25vw solid yellow;
+
+    }
+
+    
+    .diya{
+        height:40vw;
+    }
+
+    .last{
+        font-size: 2.5rem;
+        margin-top:25vw;
+    }
+
+   
+}
