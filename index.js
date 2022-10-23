@@ -18,29 +18,44 @@ function scrollPage(){
 
     console.log(roundedValueIs)
 
+    
+    let check = 25
 
-    if(roundedValueIs > 35){
+
+    if(roundedValueIs > check){
         document.querySelector('.light').style.visibility = "visible";
+    }else{
+        document.querySelector('.light').style.visibility = "hidden";
     }
 
-    if(roundedValueIs > 42){
+    if(roundedValueIs > (check + 7)){
         document.querySelector('.diya').style.visibility = "visible";
+    }else{
+        document.querySelector('.diya').style.visibility = "hidden";
     }
 
-    if(roundedValueIs > 49){
+    if(roundedValueIs > (check + 14)){
         document.querySelector('.diya4').style.visibility = "visible";
+    }else{
+        document.querySelector('.diya4').style.visibility = "hidden";
     }
 
-    if(roundedValueIs > 56){
+    if(roundedValueIs > (check + 21)){
         document.querySelector('.diya3').style.visibility = "visible";
+    }else{
+        document.querySelector('.diya3').style.visibility = "hidden";
     }
 
-    if(roundedValueIs > 63){
+    if(roundedValueIs > (check + 28)){
         document.querySelector('.diya2').style.visibility = "visible";
+    }else{
+        document.querySelector('.diya2').style.visibility = "hidden";
     }
 
-    if(roundedValueIs > 70){
+    if(roundedValueIs > (check + 35)){
         document.querySelector('.diya1').style.visibility = "visible";
+    }else{
+        document.querySelector('.diya1').style.visibility = "hidden";
     }
 
 
